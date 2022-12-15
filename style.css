@@ -225,6 +225,10 @@ ul li a {
 }
 
 @media only screen and (max-width: 425px) {
+    main {
+        height: 100vh;
+        overflow: hidden;
+    }
     .main_content {
         height: 100vh;
         flex-direction: column;
