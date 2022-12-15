@@ -72,3 +72,20 @@ function next_content() {
 right.addEventListener('click', () => {
     next_content();
 });
+
+
+let openNav = document.getElementById('open_nav');
+let closeNav = document.getElementById('close_nav');
+let list = document.getElementById('list');
+openNav.addEventListener('click', () => {
+    openNav.style.display = 'none';
+    closeNav.style.display = 'block';
+    list.style.top = '10vh';
+    list.style.transition = 'all .3s';
+});
+closeNav.addEventListener('click', () => {
+    closeNav.style.display = 'none';
+    openNav.style.display = 'block';
+    list.style.top = '-10vh';
+    list.style.transition = 'all .3s';
+});
