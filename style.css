@@ -72,7 +72,7 @@ ul li a {
     color: white;
     outline: none;
     border: none;
-    padding: 8px 16px;
+    padding: 13px 19px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 10px;
@@ -118,17 +118,17 @@ ul li a {
     color: white;
     outline: none;
     border: none;
-    padding: 11px 44px;
+    padding: 15px 44px;
     cursor: pointer;
     border-radius: 20px;
     text-transform: uppercase;
     font-size: 15px;
-    box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.6);
     transition: all .2s ease-in-out;
 }
 
 .main_content button:hover {
-    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.6);
 }
 
 .image {
