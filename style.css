@@ -238,12 +238,19 @@ ul li a {
     }
     .list {
         position: absolute;
-        top: -10vh;
+        top: -50vh;
         left: 0;
         width: 100%;
-        height: 10vh;
+        height: 40vh;
         background-color: #fffaf3;
         z-index: 200;
+        flex-direction: column;
+    }
+    .list ul{
+        flex-direction: column;
+    }
+    .list ul li{
+        margin: 5px 0;
     }
     .nav_ctrl {
         display: block;
@@ -288,5 +295,8 @@ ul li a {
     }
     .dark p {
         font-size: 10px;
+    }
+    .arrows i {
+        margin: 0 3px;
     }
 }

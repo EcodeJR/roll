@@ -16,17 +16,17 @@ let ImgList = [{
         dot: bike
     }, {
         text: 'DRIVINNG MODE',
-        main_img: '/red-sports-bike.png',
+        main_img: '/car.png',
         dot: car
     },
     {
         text: 'FLYING MODE',
-        main_img: '/red-sports-bike.png',
+        main_img: '/plane.png',
         dot: plane
     },
     {
-        text: 'SKIING MODE',
-        main_img: '/red-sports-bike.png',
+        text: 'BIKING MODE',
+        main_img: '/bike.png',
         dot: jet_ski
     }
 ];
@@ -86,6 +86,6 @@ openNav.addEventListener('click', () => {
 closeNav.addEventListener('click', () => {
     closeNav.style.display = 'none';
     openNav.style.display = 'block';
-    list.style.top = '-10vh';
+    list.style.top = '-50vh';
     list.style.transition = 'all .3s';
 });
